@@ -25,8 +25,8 @@ body {
   }
 
   &__sidebar {
-    background: rgb(199, 199, 199);
-    background: linear-gradient(90deg, rgba(199, 199, 199, 1) 0%, rgba(255, 235, 205, 1) 100%);
+    background: rgb(208,208,208);
+    background: linear-gradient(90deg, rgba(208,208,208,1) 0%, rgba(255,245,226,1) 100%);  
     width: 150px;
     padding: 1rem;
     &--photo {
@@ -60,6 +60,45 @@ body {
       color: #707070;
       line-height: 7px;
     }
+    &--contentExam {
+      width: 40px;
+      height: 40px;
+      background: #fff;
+      border: 2px solid #707070;
+      border-radius: 50%;
+      text-align: center;
+    }
+    &--titleCenter {
+      padding: 0;
+      color: #505050;
+      text-align: center;
+      font-size: 0.7rem;
+      margin: 15px auto;
+    }
+
+
+    &__exam {
+      display: flex;
+      justify-content: space-around;
+      width: 100%;
+      height: 50px;
+      position: relative;
+      &--logo {
+        display: flex;
+        align-items: center;
+        width: 20px;
+        height: 20px;
+        margin: 0.5rem auto;
+      }
+      &--title {
+        color: #707070;
+        font-size: 0.6rem;
+        margin: 15px auto;
+      }
+    }
+    &--webLink {
+      margin: 2rem auto;
+    }
   }
 
   &__label {
@@ -73,7 +112,7 @@ body {
       height: 34px;
       border: 1px solid #505050;
       border-radius: 50%;
-      color: #505050;
+      color: #707070;
       i {
         align-self: center;
       }
@@ -83,36 +122,29 @@ body {
       font-size: 0.7rem;
       font-weight: bold;
       margin-left: 0.7rem;
-      color: #626262;
+      color: #505050;
       text-align: center;
-      &--center {
-        padding: 0;
-        text-align: center;
-      }
     }
-    &--exam {
-      width: 100%;
-      height: 50px;
+  
+  &__item {
+    display: flex;
+    justify-content: center;
+    margin: 0.3rem auto;
+    background: #fff;
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+    border: 1px solid #505050;
+    border-radius: 50px;
+    &--logo {
     }
-    &__item {
-      display: flex;
-      justify-content: center;
-      margin: 0.2rem auto;
-      background: #fff;
-      width: 100%;
-      height: 20px;
-      line-height: 20px;
-      border: 1px solid #505050;
-      border-radius: 50px;
-      &--logo {
-      }
-      &--link {
-        text-decoration: none;
-        font-weight: bold;
-        color: #505050;
-        font-size: 0.8rem;
-      }
+    &--link {
+      text-decoration: none;
+      font-weight: bold;
+      color: #505050;
+      font-size: 0.8rem;
     }
+  }
   }
 
   &__section {
@@ -204,8 +236,8 @@ body {
 
 
   .etiquette {
-    background: rgb(199, 199, 199);
-    background: linear-gradient(90deg, rgba(199, 199, 199, 1) 0%, rgba(255, 235, 205, 1) 100%);
+    background: rgb(208,208,208);
+    background: linear-gradient(90deg, rgba(208,208,208,1) 0%, rgba(255,245,226,1) 100%);  
     width: 330px;
     height: 45px;
     line-height: 12px;
@@ -224,7 +256,7 @@ body {
       }
       &--h3 {
         padding: 0 0.5rem 0 0.5rem;
-        font-size: 0.7rem;
+        font-size: 0.65rem;
         margin: 0;
         font-weight: lighter;
       }
@@ -235,8 +267,8 @@ body {
       height: 45px;
       display: flex;
       justify-content: space-evenly;
-      background: rgb(199, 199, 199);
-      background: linear-gradient(90deg, rgba(199, 199, 199, 1) 0%, rgba(255, 235, 205, 1) 100%);
+      background: rgb(208,208,208);
+      background: linear-gradient(90deg, rgba(208,208,208,1) 0%, rgba(255,245,226,1) 100%);   
       position: relative;
       top: -30px;
       left: 300px;
