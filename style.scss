@@ -1,0 +1,217 @@
+body {
+  background: #e2e2e2;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.container {
+  //Feuille A4
+  height: 1127px;
+  width: 827px;
+  background-color: #fff;
+  border-radius: 1px;
+  box-shadow: 1px 1px 2px #d6d6cc;
+  margin: 150px auto;
+  padding: 2.5rem 1.8rem;
+  box-sizing: content-box;
+  overflow: hidden;
+  &__content {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    &__sidebar {
+      background: rgb(199, 199, 199);
+      background: linear-gradient(90deg, rgba(199, 199, 199, 1) 0%, rgba(255, 235, 205, 1) 100%);
+      width: 128px;
+      height: 100%;
+      padding: 1rem;
+      &--photo {
+        display: block;
+        margin: 0 auto;
+        width: 99px;
+        height: 101px;
+        background: #fff;
+        border: 2px solid #505050;
+        border-radius: 50%;
+      }
+      &--name {
+        margin: 0.5rem 0 2rem 0;
+        text-align: center;
+        font-size: 1.2rem;
+        color: #6e6e6e;
+        font-family: "Raphtalia";
+      }
+      & figure {
+        margin: 0;
+      }
+    }
+    &__label {
+      display: flex;
+      justify-content: flex-start;
+      &--profil {
+        display: flex;
+        justify-content: center;
+        background: #fff;
+        width: 34px;
+        height: 34px;
+        border: 1px solid #505050;
+        border-radius: 50%;
+        color: #505050;
+        i {
+          align-self: center;
+        }
+      }
+      &--title {
+        align-self: center;
+        font-size: 0.8rem;
+        font-weight: bold;
+        margin-left: 0.7rem;
+        color: #626262;
+        text-align: center;
+        &--center {
+          padding: 0;
+          text-align: center;
+        }
+      }
+      &--exam {
+        width: 100%;
+        height: 50px;
+      }
+      &__item {
+        display: flex;
+        justify-content: center;
+        margin: 0.2rem auto;
+        background: #fff;
+        width: 100%;
+        height: 20px;
+        line-height: 20px;
+        border: 1px solid #505050;
+        border-radius: 50px;
+        &--logo {
+        }
+        &--link {
+          text-decoration: none;
+          font-weight: bold;
+          color: #505050;
+          font-size: 0.8rem;
+        }
+      }
+    }
+    &__article {
+      padding: 0.1rem;
+      &--para {
+        margin: 1.2rem auto;
+        font-size: 0.7rem;
+        font-weight: bold;
+        color: #505050;
+        line-height: 7px;
+      }
+    }
+
+    .etiquette {
+      display: flex;
+      flex-direction: column;
+      background: rgb(199, 199, 199);
+      background: linear-gradient(90deg, rgba(199, 199, 199, 1) 0%, rgba(255, 235, 205, 1) 100%);
+      width: 350px;
+      height: 50px;
+      z-index: 1;
+      position: relative;
+      &--h2 {
+        padding: 0.3rem 0 0 0.5rem;
+        font-weight: bold;
+        margin: 0;
+      }
+      &--h3 {
+        padding: 0.2rem 0 0 0.5rem;
+        font-size: 0.7rem;
+        margin: 0;
+      }
+      &__school {
+        width: calc(100% / 2);
+        height: 50px;
+        display: flex;
+        justify-content: space-evenly;
+        background: rgb(199, 199, 199);
+        background: linear-gradient(90deg, rgba(199, 199, 199, 1) 0%, rgba(255, 235, 205, 1) 100%);
+        position: relative;
+        top: -20px;
+        left: 300px;
+        z-index: 0;
+        &--h2 {
+          margin: 0;
+        }
+        &--h3 {
+          margin: 0;
+        }
+        &__name {
+          font-weight: bold;
+          align-self: center;
+          padding-left: 1rem;
+        }
+        &__icon {
+          align-self: center;
+          font-size: 2rem;
+          color: #505050;
+          opacity: 0.5;
+        }
+      }
+    }
+
+    &__section {
+      padding: 0 0 0 1rem;
+      width: 80%;
+      height: 100%;
+      color: #505050;
+      &__title {
+        margin: 0 0 1rem 0;
+        &--job {
+          font-size: 3rem;
+          font-weight: bold;
+          color: #505050;
+          margin: 0;
+        }
+        &--objectif {
+          font-size: 1.5rem;
+          font-weight: 300;
+          color: #505050;
+          margin: 0;
+        }
+      }
+      &--module {
+        display: flex;
+        font-size: 0.8rem;
+        position: relative;
+        top: -40px;
+        &--left {
+          width: 50%;
+        }
+        &--right {
+          padding-top: 2.4rem;
+          width: 50%;
+        }
+        &--para {
+          margin: 0 0 1rem 0;
+          font-size: 0.7rem;
+        }
+        &--title {
+          font-weight: bold;
+          margin: 0;
+        }
+      }
+      &__designer {
+        font-size: 0.8rem;
+        position: relative;
+        top: -50px;
+        &--title {
+          font-weight: bold;
+        }
+        &--para {
+          margin: 0 0 1rem 0;
+          font-size: 0.7rem;
+        }
+      }
+    }
+  }
+}

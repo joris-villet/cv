@@ -1,0 +1,288 @@
+body {
+  background: #e2e2e2;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.container {
+  height: 1127px;
+  width: 827px;
+  background-color: #fff;
+  border-radius: 1px;
+  -webkit-box-shadow: 1px 1px 2px #d6d6cc;
+          box-shadow: 1px 1px 2px #d6d6cc;
+  margin: 150px auto;
+  padding: 2.5rem 1.8rem;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  overflow: hidden;
+}
+
+.container__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.container__content__sidebar {
+  background: #c7c7c7;
+  background: -webkit-gradient(linear, left top, right top, from(#c7c7c7), to(blanchedalmond));
+  background: linear-gradient(90deg, #c7c7c7 0%, blanchedalmond 100%);
+  width: 128px;
+  height: 100%;
+  padding: 1rem;
+}
+
+.container__content__sidebar--photo {
+  display: block;
+  margin: 0 auto;
+  width: 99px;
+  height: 101px;
+  background: #fff;
+  border: 2px solid #505050;
+  border-radius: 50%;
+}
+
+.container__content__sidebar--name {
+  margin: 0.5rem 0 2rem 0;
+  text-align: center;
+  font-size: 1.2rem;
+  color: #6e6e6e;
+  font-family: "Raphtalia";
+}
+
+.container__content__sidebar figure {
+  margin: 0;
+}
+
+.container__content__label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.container__content__label--profil {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #fff;
+  width: 34px;
+  height: 34px;
+  border: 1px solid #505050;
+  border-radius: 50%;
+  color: #505050;
+}
+
+.container__content__label--profil i {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.container__content__label--title {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  font-size: 0.8rem;
+  font-weight: bold;
+  margin-left: 0.7rem;
+  color: #626262;
+  text-align: center;
+}
+
+.container__content__label--title--center {
+  padding: 0;
+  text-align: center;
+}
+
+.container__content__label--exam {
+  width: 100%;
+  height: 50px;
+}
+
+.container__content__label__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0.2rem auto;
+  background: #fff;
+  width: 100%;
+  height: 20px;
+  line-height: 20px;
+  border: 1px solid #505050;
+  border-radius: 50px;
+}
+
+.container__content__label__item--link {
+  text-decoration: none;
+  font-weight: bold;
+  color: #505050;
+  font-size: 0.8rem;
+}
+
+.container__content__article {
+  padding: 0.1rem;
+}
+
+.container__content__article--para {
+  margin: 1.2rem auto;
+  font-size: 0.7rem;
+  font-weight: bold;
+  color: #505050;
+  line-height: 7px;
+}
+
+.container__content .etiquette {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: #c7c7c7;
+  background: -webkit-gradient(linear, left top, right top, from(#c7c7c7), to(blanchedalmond));
+  background: linear-gradient(90deg, #c7c7c7 0%, blanchedalmond 100%);
+  width: 350px;
+  height: 50px;
+  z-index: 1;
+  position: relative;
+}
+
+.container__content .etiquette--h2 {
+  padding: 0.3rem 0 0 0.5rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.container__content .etiquette--h3 {
+  padding: 0.2rem 0 0 0.5rem;
+  font-size: 0.7rem;
+  margin: 0;
+}
+
+.container__content .etiquette__school {
+  width: calc(100% / 2);
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  background: #c7c7c7;
+  background: -webkit-gradient(linear, left top, right top, from(#c7c7c7), to(blanchedalmond));
+  background: linear-gradient(90deg, #c7c7c7 0%, blanchedalmond 100%);
+  position: relative;
+  top: -20px;
+  left: 300px;
+  z-index: 0;
+}
+
+.container__content .etiquette__school--h2 {
+  margin: 0;
+}
+
+.container__content .etiquette__school--h3 {
+  margin: 0;
+}
+
+.container__content .etiquette__school__name {
+  font-weight: bold;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  padding-left: 1rem;
+}
+
+.container__content .etiquette__school__icon {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  font-size: 2rem;
+  color: #505050;
+  opacity: 0.5;
+}
+
+.container__content__section {
+  padding: 0 0 0 1rem;
+  width: 80%;
+  height: 100%;
+  color: #505050;
+}
+
+.container__content__section__title {
+  margin: 0 0 1rem 0;
+}
+
+.container__content__section__title--job {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #505050;
+  margin: 0;
+}
+
+.container__content__section__title--objectif {
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: #505050;
+  margin: 0;
+}
+
+.container__content__section--module {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 0.8rem;
+  position: relative;
+  top: -40px;
+}
+
+.container__content__section--module--left {
+  width: 50%;
+}
+
+.container__content__section--module--right {
+  padding-top: 2.4rem;
+  width: 50%;
+}
+
+.container__content__section--module--para {
+  margin: 0 0 1rem 0;
+  font-size: 0.7rem;
+}
+
+.container__content__section--module--title {
+  font-weight: bold;
+  margin: 0;
+}
+
+.container__content__section__designer {
+  font-size: 0.8rem;
+  position: relative;
+  top: -50px;
+}
+
+.container__content__section__designer--title {
+  font-weight: bold;
+}
+
+.container__content__section__designer--para {
+  margin: 0 0 1rem 0;
+  font-size: 0.7rem;
+}
+/*# sourceMappingURL=style.css.map */
